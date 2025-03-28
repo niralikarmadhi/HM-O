@@ -1,10 +1,28 @@
-// @font-face {
-//     font-family: "IBM Plex Sans";
-//     src: url('/wp-content/themes/canada/assets/font/IBM Plex Sans.ttf') format('truetype');
-//     font-style: normal;
-// }
 @font-face {
-    font-family: "roobert";
-    src: url("../../../public/assets/fonts/");
-    font-weight: 400;
+  font-family: "Raleway-Regular";
+  src: url("../../../public/assets/fonts/raleway-regular.ttf") format(truetype);
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Raleway-Medium";
+  src: url("../../../public/assets/fonts/raleway-medium.ttf") format(truetype);
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Raleway-SemiBold";
+  src: url("../../../public/assets/fonts/raleway-semiBold.ttf") format(truetype);
+  font-weight: 600;
+}
+
+.rale-normal {
+  font-family: "Raleway-Regular", sans-serif;
+}
+.rale-medium {
+  font-family: "Raleway-Medium", sans-serif;
+}
+.rale-semibold {
+  font-family: "Raleway-SemiBold", sans-serif;
+}
+.basker {
+  font-family: "Raleway-SemiBold", sans-serif;
 }

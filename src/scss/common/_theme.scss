@@ -1,11 +1,35 @@
 .container {
   max-width: 1440px;
-  padding-left: 60px;
-  padding-right: 60px;
+  padding-left: 33px;
+  padding-right: 33px;
 
   @include media-breakpoint-down(lg) {
     padding-left: 22px;
     padding-right: 22px;
+  }
+}
+
+.row {
+  margin-inline: 0px;
+
+  & > * {
+    padding-inline: 0px;
+  }
+}
+
+.row12 {
+  margin-inline: -12px;
+
+  & > * {
+    padding-inline: 12px;
+  }
+}
+
+.row15 {
+  margin-inline: -15px;
+
+  & > * {
+    padding-inline: 15px;
   }
 }
 
