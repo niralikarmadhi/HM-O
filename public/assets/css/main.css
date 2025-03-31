@@ -18013,6 +18013,30 @@ button,
   height: 124px;
 }
 
+.our-fees-section .privacy-left-content .privacy-links {
+  top: 200px;
+}
+.our-fees-section .privacy-left-content .privacy-links li:last-child {
+  margin-bottom: 0px !important;
+}
+.our-fees-section .privacy-left-content .privacy-links .active::before {
+  content: "";
+  border-left: 1px solid #b6edc6;
+}
+.our-fees-section .privacy-left-content .privacy-links .active a {
+  padding-left: 15px;
+  font-size: 18px !important;
+}
+.our-fees-section .privacy-right-content .single-content .single-content-line {
+  border-bottom: 1px solid #0e3823;
+}
+.our-fees-section .privacy-right-content .single-content:first-child {
+  padding-top: 0px !important;
+}
+.our-fees-section .privacy-right-content .single-content:last-child .single-content-line {
+  border-bottom: none;
+}
+
 .hero-section {
   background: linear-gradient(#30264B 76%, transparent 40%);
 }

@@ -1,0 +1,43 @@
+.our-fees-section {
+    .privacy-left-content {
+        .privacy-links {
+            top: 200px;
+
+            li {
+                &:last-child {
+                    margin-bottom: 0px !important;
+                }
+            }
+
+            .active {
+                &::before {
+                    content: '';
+                    border-left: 1px solid $color-B6EDC6;
+                }
+
+                a {
+                    padding-left: 15px;
+                    font-size: $font18 !important;
+                }
+            }
+        }
+    }
+
+    .privacy-right-content {
+        .single-content {
+            .single-content-line {
+                border-bottom: 1px solid $color-0E3823;
+            }
+
+            &:first-child {
+                padding-top: 0px !important;
+            }
+
+            &:last-child {
+                .single-content-line {
+                    border-bottom: none;
+                }
+            }
+        }
+    }
+}
