@@ -10,3 +10,22 @@
         }
     }
 }
+
+.related-cards {
+    .related-cards-img {
+        height: 280px;
+    }
+}
+
+.our-values-cards {
+    height: 464px;
+
+    .value-cards-arrow {
+        height: 52px;
+        width: 52px;
+
+        img {
+            height: 13px;
+        }
+    }
+}

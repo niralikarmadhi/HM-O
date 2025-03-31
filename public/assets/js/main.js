@@ -20433,7 +20433,22 @@ var Plugins = /*#__PURE__*/function () {
   }
   plugins_createClass(Plugins, [{
     key: "init",
-    value: function init() {}
+    value: function init() {
+      this.OurValueSlider();
+    }
+  }, {
+    key: "OurValueSlider",
+    value: function OurValueSlider() {
+      $('.our-values-slider').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        dots: true,
+        infinite: false,
+        arrows: true,
+        prevArrow: ".our-values-section .prev-arrow",
+        nextArrow: ".our-values-section .next-arrow"
+      });
+    }
   }]);
   return Plugins;
 }();
