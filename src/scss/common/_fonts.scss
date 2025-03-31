@@ -3,26 +3,37 @@
   src: url("../../../public/assets/fonts/raleway-regular.ttf") format(truetype);
   font-weight: 400;
 }
+
 @font-face {
   font-family: "Raleway-Medium";
   src: url("../../../public/assets/fonts/raleway-medium.ttf") format(truetype);
   font-weight: 500;
 }
+
 @font-face {
   font-family: "Raleway-SemiBold";
   src: url("../../../public/assets/fonts/raleway-semiBold.ttf") format(truetype);
   font-weight: 600;
 }
 
+@font-face {
+  font-family: "Baskervville-Regular";
+  src: url("../../../public/assets/fonts/Baskervville-Regular.ttf") format(truetype);
+  font-weight: 600;
+}
+
 .rale-normal {
   font-family: "Raleway-Regular", sans-serif;
 }
+
 .rale-medium {
   font-family: "Raleway-Medium", sans-serif;
 }
+
 .rale-semibold {
   font-family: "Raleway-SemiBold", sans-serif;
 }
+
 .basker {
-  font-family: "Raleway-SemiBold", sans-serif;
+  font-family: "Baskervville-Regular";
 }

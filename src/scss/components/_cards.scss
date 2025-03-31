@@ -29,3 +29,47 @@
         }
     }
 }
+
+.our-leadership-img,
+.team-cards-img {
+    height: 325px;
+}
+
+
+.service-cards {
+    background-color: $color-0E3823;
+
+    .service-heading,
+    .service-description {
+        color: $color-B6EDC6;
+    }
+
+    .btnA {
+        color: $color-B6EDC6;
+        border: 1px solid $color-B6EDC6;
+
+        &:hover {
+            background-color: $color-B6EDC6;
+            color: $color-0E3823;
+        }
+    }
+
+    &.bg-30264B-cards{
+        background-color: $color-30264B;
+
+        .service-heading,
+        .service-description {
+            color: $color-BFA8E5;
+        }
+    
+        .btnA {
+            color: $color-BFA8E5;
+            border: 1px solid $color-BFA8E5;
+    
+            &:hover {
+                background-color: $color-BFA8E5;
+                color: $color-30264B;
+            }
+        }
+    }
+}
