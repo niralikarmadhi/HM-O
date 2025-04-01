@@ -17891,6 +17891,58 @@ button,
   color: #0e3823;
 }
 
+.offcanvas-body .input {
+  padding-inline: 33px;
+  height: 58px;
+  border: 1px solid #30264b;
+  border-radius: 29px;
+}
+.offcanvas-body .input::placeholder {
+  font-size: 16px;
+  line-height: 26px;
+  color: #30264b;
+}
+
+.contact-form {
+  padding-inline: 29px;
+}
+.contact-form .input-row > * {
+  padding: 0 8px !important;
+}
+.contact-form .input-row {
+  margin: 0 -8px;
+}
+.contact-form .input-row input {
+  height: 58px;
+  background-color: #fff;
+  border-radius: 50px;
+  border: 1px solid #bfa8e5;
+  margin-bottom: 15px;
+  color: #30264b;
+}
+@media (max-width: 767.98px) {
+  .contact-form .input-row input {
+    margin-bottom: 9px !important;
+  }
+}
+.contact-form .input-row input::placeholder {
+  color: #30264b;
+}
+.contact-form .input-row textarea {
+  background-color: #fff;
+  border-radius: 20px;
+  border: 1px solid #bfa8e5;
+  color: #30264b;
+}
+@media (max-width: 767.98px) {
+  .contact-form .input-row textarea {
+    margin-top: 9px !important;
+  }
+}
+.contact-form .input-row textarea::placeholder {
+  color: #30264b;
+}
+
 .card-hover .img {
   transform: scale(1);
   transition: 0.3s all ease-in-out;
@@ -18062,17 +18114,6 @@ button,
   width: 43px !important;
   padding: 0px !important;
 }
-.offcanvas .offcanvas-body .input {
-  padding-inline: 33px;
-  height: 58px;
-  border: 1px solid #30264b;
-  border-radius: 29px;
-}
-.offcanvas .offcanvas-body .input::placeholder {
-  font-size: 16px;
-  line-height: 26px;
-  color: #30264b;
-}
 
 .our-values-section .slick-arrow .prev-arrow,
 .our-values-section .slick-arrow .next-arrow {
@@ -18159,6 +18200,19 @@ button,
 }
 .our-fees-section .privacy-right-content .single-content:last-child .single-content-line {
   border-bottom: none;
+}
+
+.contact-us-section .social-icon-hroup .social-icon {
+  border: 1px solid #bfa8e5;
+  height: 48px;
+  width: 48px;
+  margin-right: 10px;
+}
+.contact-us-section .social-icon-hroup .social-icon:last-child {
+  margin-right: 0px;
+}
+.contact-us-section .social-icon-hroup .social-icon .img {
+  height: 20px;
 }
 
 .hero-section {

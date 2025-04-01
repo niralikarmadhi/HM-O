@@ -106,19 +106,4 @@
             padding: 0px !important;
         }
     }
-
-    .offcanvas-body {
-        .input {
-            padding-inline: 33px;
-            height: 58px;
-            border: 1px solid $color-30264B;
-            border-radius: 29px;
-
-            &::placeholder{
-                font-size: $font16;
-                line-height: $leading26;
-                color: $color-30264B;
-            }
-        }
-    }
 }

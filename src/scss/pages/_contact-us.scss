@@ -1,0 +1,18 @@
+.contact-us-section {
+    .social-icon-hroup {
+        .social-icon {
+            border: 1px solid $color-BFA8E5;
+            height: 48px;
+            width: 48px;
+            margin-right: 10px;
+
+            &:last-child {
+                margin-right: 0px;
+            }
+
+            .img {
+                height: 20px;
+            }
+        }
+    }
+}
