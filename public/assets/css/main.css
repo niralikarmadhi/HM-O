@@ -17902,6 +17902,9 @@ button,
   line-height: 26px;
   color: #30264b;
 }
+.offcanvas-body .input.file-input {
+  border: 1px dashed #30264b;
+}
 
 .contact-form {
   padding-inline: 29px;

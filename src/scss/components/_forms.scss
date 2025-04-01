@@ -10,6 +10,10 @@
             line-height: $leading26;
             color: $color-30264B;
         }
+
+        &.file-input {
+            border: 1px dashed $color-30264B;
+        }
     }
 }
 
@@ -62,7 +66,8 @@
     .input {
         height: 58px;
         border-radius: 29px;
-        &::placeholder{
+
+        &::placeholder {
             color: $color-0E3823;
         }
     }
