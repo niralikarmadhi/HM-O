@@ -17796,6 +17796,10 @@ textarea {
   opacity: 60%;
 }
 
+.opacity70 {
+  opacity: 70%;
+}
+
 button,
 [type=button],
 [type=reset],
@@ -18141,6 +18145,24 @@ button,
 }
 .our-values-slider .slick-list .slick-slide {
   padding-inline: 12px;
+}
+
+footer .footer-link-group a:last-child {
+  margin-bottom: 0px !important;
+}
+footer .footer-icon {
+  height: 48px;
+  width: 48px;
+  border: 1px solid #0e3823;
+}
+footer .footer-icon img {
+  height: 20px;
+}
+footer .footer-icon:last-child {
+  margin-right: 0px !important;
+}
+footer .footer-line {
+  border: 1px solid #0e3823;
 }
 
 .left-right-img {

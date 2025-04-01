@@ -1,0 +1,27 @@
+footer {
+    .footer-link-group {
+        a {
+            &:last-child {
+                margin-bottom: 0px !important;
+            }
+        }
+    }
+
+    .footer-icon {
+        height: 48px;
+        width: 48px;
+        border: 1px solid $color-0E3823;
+
+        img {
+            height: 20px;
+        }
+
+        &:last-child {
+            margin-right: 0px !important;
+        }
+    }
+
+    .footer-line{
+    border: 1px solid $color-0E3823;
+    }
+}
