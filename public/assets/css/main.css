@@ -17950,6 +17950,19 @@ button,
   color: #30264b;
 }
 
+.enquire-cards .left-content {
+  width: 380px;
+  height: 190px;
+  padding-left: 50px;
+  border-right: 2px solid rgba(112, 112, 112, 0.21);
+}
+.enquire-cards .right-content {
+  margin-left: 55px;
+}
+.enquire-cards:last-child {
+  margin-bottom: 0px !important;
+}
+
 .close-div {
   z-index: 99;
   top: 15px;
@@ -18036,6 +18049,29 @@ button,
 .modal-backdrop {
   background-color: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(6px);
+}
+
+.offcanvas {
+  width: 596px !important;
+}
+.offcanvas .offcanvas-header {
+  justify-content: end !important;
+}
+.offcanvas .offcanvas-header .btn-close {
+  height: 43px !important;
+  width: 43px !important;
+  padding: 0px !important;
+}
+.offcanvas .offcanvas-body .input {
+  padding-inline: 33px;
+  height: 58px;
+  border: 1px solid #30264b;
+  border-radius: 29px;
+}
+.offcanvas .offcanvas-body .input::placeholder {
+  font-size: 16px;
+  line-height: 26px;
+  color: #30264b;
 }
 
 .our-values-section .slick-arrow .prev-arrow,

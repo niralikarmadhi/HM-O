@@ -54,22 +54,39 @@
         }
     }
 
-    &.bg-30264B-cards{
+    &.bg-30264B-cards {
         background-color: $color-30264B;
 
         .service-heading,
         .service-description {
             color: $color-BFA8E5;
         }
-    
+
         .btnA {
             color: $color-BFA8E5;
             border: 1px solid $color-BFA8E5;
-    
+
             &:hover {
                 background-color: $color-BFA8E5;
                 color: $color-30264B;
             }
         }
+    }
+}
+
+.enquire-cards {
+    .left-content {
+        width: 380px;
+        height: 190px;
+        padding-left: 50px;
+        border-right: 2px solid rgba($color: $color-707070, $alpha: 0.21);
+    }
+
+    .right-content {
+        margin-left: 55px;
+    }
+
+    &:last-child {
+        margin-bottom: 0px !important;
     }
 }

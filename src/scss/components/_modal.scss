@@ -93,3 +93,32 @@
     background-color: rgba($color: $white, $alpha: 0.1);
     backdrop-filter: blur(6px);
 }
+
+.offcanvas {
+    width: 596px !important;
+
+    .offcanvas-header {
+        justify-content: end !important;
+
+        .btn-close {
+            height: 43px !important;
+            width: 43px !important;
+            padding: 0px !important;
+        }
+    }
+
+    .offcanvas-body {
+        .input {
+            padding-inline: 33px;
+            height: 58px;
+            border: 1px solid $color-30264B;
+            border-radius: 29px;
+
+            &::placeholder{
+                font-size: $font16;
+                line-height: $leading26;
+                color: $color-30264B;
+            }
+        }
+    }
+}
