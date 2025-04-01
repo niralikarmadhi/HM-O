@@ -17943,6 +17943,14 @@ button,
   color: #30264b;
 }
 
+.invoice-form .input {
+  height: 58px;
+  border-radius: 29px;
+}
+.invoice-form .input::placeholder {
+  color: #0e3823;
+}
+
 .card-hover .img {
   transform: scale(1);
   transition: 0.3s all ease-in-out;
@@ -18213,6 +18221,11 @@ button,
 }
 .contact-us-section .social-icon-hroup .social-icon .img {
   height: 20px;
+}
+
+.invoice-form-section .left-side-content {
+  top: 220px;
+  height: calc(100vh - 325px);
 }
 
 .hero-section {

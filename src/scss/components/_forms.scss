@@ -57,3 +57,13 @@
         }
     }
 }
+
+.invoice-form {
+    .input {
+        height: 58px;
+        border-radius: 29px;
+        &::placeholder{
+            color: $color-0E3823;
+        }
+    }
+}
