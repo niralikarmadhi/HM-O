@@ -18210,6 +18210,35 @@ button,
   border-bottom: none;
 }
 
+.privacy-section .privacy-left-content .privacy-links {
+  top: 365px;
+}
+.privacy-section .privacy-left-content .privacy-links li {
+  position: relative;
+}
+.privacy-section .privacy-left-content .privacy-links li:last-child {
+  margin-bottom: 0px !important;
+}
+.privacy-section .privacy-left-content .privacy-links .active::before {
+  content: "";
+  border-left: 1px solid #f7f5f6;
+  height: 100%;
+  position: absolute;
+}
+.privacy-section .privacy-left-content .privacy-links .active a {
+  padding-left: 15px;
+  font-size: 20px !important;
+}
+.privacy-section .privacy-right-content .single-content .single-content-line {
+  border-bottom: 1px solid #f7f5f6;
+}
+.privacy-section .privacy-right-content .single-content:first-child {
+  padding-top: 0px !important;
+}
+.privacy-section .privacy-right-content .single-content:last-child .single-content-line {
+  border-bottom: none;
+}
+
 .contact-us-section .social-icon-hroup .social-icon {
   border: 1px solid #bfa8e5;
   height: 48px;
